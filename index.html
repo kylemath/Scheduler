@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimized Task Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Optimized Task Scheduler</h1>
+    </header>
+    <main>
+        <section id="scheduler-input">
+            <h2>What should I do now?</h2>
+            <div class="input-group">
+                <label for="available-time">How much time do you have? (minutes)</label>
+                <input type="number" id="available-time" min="0" step="5">
+            </div>
+            <div class="input-group">
+                <label for="time-of-day">What time of day is it?</label>
+                <select id="time-of-day">
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="mood">What is your current mood/energy level?</label>
+                <select id="mood">
+                    <option value="high-energy">High Energy / Focused</option>
+                    <option value="low-energy">Low Energy / Chill</option>
+                    <option value="creative">Creative</option>
+                </select>
+            </div>
+            <button id="get-task-btn">Get Task</button>
+        </section>
+        <section id="suggested-task">
+            <h2>Your next task is...</h2>
+            <div id="task-suggestion-card">
+                <p>Provide your current status above to get a task suggestion.</p>
+            </div>
+        </section>
+        <section id="task-lists">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <h2>Your To-Do Lists</h2>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button id="export-btn" style="width: auto; padding: 0.5rem 1rem; font-size: 0.9rem;">📥 Export</button>
+                    <label for="import-file" style="display: inline-block; background: linear-gradient(135deg, var(--navy) 0%, #002244 100%); color: white; padding: 0.5rem 1rem; border-radius: 12px; cursor: pointer; font-size: 0.9rem; font-weight: 600; transition: all 0.3s ease;">📤 Import</label>
+                    <input type="file" id="import-file" accept=".json" style="display: none;">
+                </div>
+            </div>
+            
+            <!-- Timeline Section -->
+            <div id="timeline-section">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                    <h3 style="color: var(--navy); margin: 0; font-size: 1.2rem;">📅 Due Date Timeline</h3>
+                    <div id="timeline-controls" style="display: flex; gap: 0.5rem; align-items: center;">
+                        <button id="zoom-out" style="width: auto; padding: 0.25rem 0.5rem; font-size: 0.8rem;">🔍➖</button>
+                        <button id="zoom-in" style="width: auto; padding: 0.25rem 0.5rem; font-size: 0.8rem;">🔍➕</button>
+                        <span id="timeline-scale" style="font-size: 0.8rem; color: #666;">Week View</span>
+                    </div>
+                </div>
+                <div id="timeline-container">
+                    <div id="timeline-track"></div>
+                </div>
+            </div>
+            
+            <div id="tasks-container">
+                <!-- Task categories and items will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

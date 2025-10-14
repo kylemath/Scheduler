@@ -1,0 +1,338 @@
+[
+  {
+    "id": 1,
+    "category": "275",
+    "name": "Grading Quiz 2",
+    "completed": false,
+    "dueDate": "2025-10-14",
+    "timeToComplete": 60,
+    "tags": [
+      "work",
+      "deep focus",
+      "computer"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "275",
+    "name": "Gradebook",
+    "completed": false,
+    "dueDate": "2025-10-14",
+    "timeToComplete": 30,
+    "tags": [
+      "work",
+      "computer"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "275",
+    "name": "Prepare Midterm",
+    "completed": false,
+    "dueDate": "2025-10-13",
+    "timeToComplete": 120,
+    "tags": [
+      "work",
+      "deep focus",
+      "computer"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "275",
+    "name": "Prepare Lecture",
+    "completed": true,
+    "dueDate": "2025-10-07",
+    "timeToComplete": 90,
+    "tags": [
+      "work",
+      "creative",
+      "computer"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "275",
+    "name": "Teach 275 Sensation + Quiz 3",
+    "completed": true,
+    "dueDate": "2025-10-07",
+    "timeToComplete": null,
+    "tags": []
+  },
+  {
+    "id": 27,
+    "category": "275",
+    "name": "Grading quiz 3",
+    "completed": false,
+    "dueDate": "2025-10-14",
+    "timeToComplete": 30,
+    "tags": []
+  },
+  {
+    "id": 5,
+    "category": "403",
+    "name": "Grade Assy. 1",
+    "completed": false,
+    "dueDate": "2025-10-08",
+    "timeToComplete": 120,
+    "tags": [
+      "work",
+      "deep focus",
+      "computer"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "403",
+    "name": "Fix Projs Save",
+    "completed": true,
+    "dueDate": "2025-10-06",
+    "timeToComplete": 45,
+    "tags": [
+      "work",
+      "computer"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "403",
+    "name": "Lecture",
+    "completed": true,
+    "dueDate": "2025-10-06",
+    "timeToComplete": 60,
+    "tags": [
+      "work",
+      "creative",
+      "computer"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "403",
+    "name": "Assignment 2",
+    "completed": true,
+    "dueDate": "2025-10-06",
+    "timeToComplete": 90,
+    "tags": [
+      "work",
+      "deep focus",
+      "computer"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Stroke",
+    "name": "Meet Charan",
+    "completed": false,
+    "dueDate": "2025-10-13",
+    "timeToComplete": 60,
+    "tags": [
+      "social",
+      "planning"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Stroke",
+    "name": "Develop App",
+    "completed": false,
+    "dueDate": "2025-10-10",
+    "timeToComplete": 180,
+    "tags": [
+      "work",
+      "deep focus",
+      "computer",
+      "creative"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Stroke",
+    "name": "EEG Edu list",
+    "completed": false,
+    "dueDate": "2025-10-10",
+    "timeToComplete": 45,
+    "tags": [
+      "work",
+      "research",
+      "computer"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Juventus",
+    "name": "Coach Forms",
+    "completed": false,
+    "dueDate": "2025-10-08",
+    "timeToComplete": 30,
+    "tags": [
+      "admin"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Juventus",
+    "name": "Collect Fees",
+    "completed": false,
+    "dueDate": "2025-10-13",
+    "timeToComplete": 20,
+    "tags": [
+      "admin"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Juventus",
+    "name": "Practice Sat",
+    "completed": true,
+    "dueDate": "2025-10-04",
+    "timeToComplete": 120,
+    "tags": [
+      "sport",
+      "social"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Juventus",
+    "name": "Scrimmage Wed",
+    "completed": true,
+    "dueDate": "2025-10-08",
+    "timeToComplete": 120,
+    "tags": [
+      "sport",
+      "social"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "Juventus",
+    "name": "Game Saturday Scottish 9:30",
+    "completed": false,
+    "dueDate": "2025-10-11",
+    "timeToComplete": 180,
+    "tags": []
+  },
+  {
+    "id": 16,
+    "category": "Consulting",
+    "name": "1 hr Prep",
+    "completed": true,
+    "dueDate": null,
+    "timeToComplete": 60,
+    "tags": [
+      "work",
+      "planning",
+      "computer"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "Consulting",
+    "name": "2:00 pm meeting FLIR",
+    "completed": true,
+    "dueDate": null,
+    "timeToComplete": 90,
+    "tags": [
+      "work",
+      "social"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "Consulting",
+    "name": "Read docs and images and send comments",
+    "completed": false,
+    "dueDate": "2025-10-10",
+    "timeToComplete": 120,
+    "tags": []
+  },
+  {
+    "id": 18,
+    "category": "House",
+    "name": "Rosy Room",
+    "completed": false,
+    "dueDate": "2025-10-31",
+    "timeToComplete": 350,
+    "tags": [
+      "chore",
+      "home"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "House",
+    "name": "Clean Garage",
+    "completed": false,
+    "dueDate": null,
+    "timeToComplete": 120,
+    "tags": [
+      "chore",
+      "home",
+      "physical"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "House",
+    "name": "Living Room Lights",
+    "completed": false,
+    "dueDate": null,
+    "timeToComplete": 60,
+    "tags": [
+      "chore",
+      "home"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "Office",
+    "name": "Clean",
+    "completed": true,
+    "dueDate": "2025-10-24",
+    "timeToComplete": 120,
+    "tags": [
+      "chore",
+      "office"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "Office",
+    "name": "Computer",
+    "completed": false,
+    "dueDate": "2025-10-17",
+    "timeToComplete": 30,
+    "tags": [
+      "chore",
+      "office",
+      "computer"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "Office",
+    "name": "Air Flow",
+    "completed": false,
+    "dueDate": "2025-10-31",
+    "timeToComplete": 15,
+    "tags": [
+      "chore",
+      "office"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "Grant",
+    "name": "Oct 16 Draft",
+    "completed": false,
+    "dueDate": "2025-10-16",
+    "timeToComplete": 240,
+    "tags": [
+      "work",
+      "deep focus",
+      "writing",
+      "computer"
+    ]
+  }
+]
