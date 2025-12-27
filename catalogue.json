@@ -1,0 +1,11 @@
+{
+  "id": "Scheduler",
+  "title": "Scheduler",
+  "oneLiner": "A visual todolist and schedular with waves for days and weeks",
+  "demoUrl": "https://kylemath.github.io/Scheduler",
+  "screenshot": "https://raw.githubusercontent.com/kylemath/Scheduler/main/screenshot.png",
+  "kind": "project",
+  "categories": ["web", "todo", "schedule"],
+  "tags": ["web", "todo", "schedule"],
+  "status": "published"
+}

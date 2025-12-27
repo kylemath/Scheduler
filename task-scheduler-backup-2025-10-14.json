@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "275",
+    "category": "Psychology 101",
     "name": "Grading Quiz 2",
     "completed": false,
     "dueDate": "2025-10-14",
@@ -14,7 +14,7 @@
   },
   {
     "id": 4,
-    "category": "275",
+    "category": "Psychology 101",
     "name": "Gradebook",
     "completed": false,
     "dueDate": "2025-10-14",
@@ -26,7 +26,7 @@
   },
   {
     "id": 3,
-    "category": "275",
+    "category": "Psychology 101",
     "name": "Prepare Midterm",
     "completed": false,
     "dueDate": "2025-10-13",
@@ -39,7 +39,7 @@
   },
   {
     "id": 2,
-    "category": "275",
+    "category": "Psychology 101",
     "name": "Prepare Lecture",
     "completed": true,
     "dueDate": "2025-10-07",
@@ -52,8 +52,8 @@
   },
   {
     "id": 26,
-    "category": "275",
-    "name": "Teach 275 Sensation + Quiz 3",
+    "category": "Psychology 101",
+    "name": "Teach Sensation + Quiz 3",
     "completed": true,
     "dueDate": "2025-10-07",
     "timeToComplete": null,
@@ -61,7 +61,7 @@
   },
   {
     "id": 27,
-    "category": "275",
+    "category": "Psychology 101",
     "name": "Grading quiz 3",
     "completed": false,
     "dueDate": "2025-10-14",
@@ -70,8 +70,8 @@
   },
   {
     "id": 5,
-    "category": "403",
-    "name": "Grade Assy. 1",
+    "category": "Neuroscience 201",
+    "name": "Grade Assignment 1",
     "completed": false,
     "dueDate": "2025-10-08",
     "timeToComplete": 120,
@@ -83,8 +83,8 @@
   },
   {
     "id": 6,
-    "category": "403",
-    "name": "Fix Projs Save",
+    "category": "Neuroscience 201",
+    "name": "Fix Project Files",
     "completed": true,
     "dueDate": "2025-10-06",
     "timeToComplete": 45,
@@ -95,7 +95,7 @@
   },
   {
     "id": 7,
-    "category": "403",
+    "category": "Neuroscience 201",
     "name": "Lecture",
     "completed": true,
     "dueDate": "2025-10-06",
@@ -108,7 +108,7 @@
   },
   {
     "id": 8,
-    "category": "403",
+    "category": "Neuroscience 201",
     "name": "Assignment 2",
     "completed": true,
     "dueDate": "2025-10-06",
@@ -121,8 +121,8 @@
   },
   {
     "id": 9,
-    "category": "Stroke",
-    "name": "Meet Charan",
+    "category": "Research Project",
+    "name": "Meet Collaborator",
     "completed": false,
     "dueDate": "2025-10-13",
     "timeToComplete": 60,
@@ -133,7 +133,7 @@
   },
   {
     "id": 10,
-    "category": "Stroke",
+    "category": "Research Project",
     "name": "Develop App",
     "completed": false,
     "dueDate": "2025-10-10",
@@ -147,8 +147,8 @@
   },
   {
     "id": 11,
-    "category": "Stroke",
-    "name": "EEG Edu list",
+    "category": "Research Project",
+    "name": "Equipment List",
     "completed": false,
     "dueDate": "2025-10-10",
     "timeToComplete": 45,
@@ -160,7 +160,7 @@
   },
   {
     "id": 12,
-    "category": "Juventus",
+    "category": "Sports Team",
     "name": "Coach Forms",
     "completed": false,
     "dueDate": "2025-10-08",
@@ -171,7 +171,7 @@
   },
   {
     "id": 13,
-    "category": "Juventus",
+    "category": "Sports Team",
     "name": "Collect Fees",
     "completed": false,
     "dueDate": "2025-10-13",
@@ -182,8 +182,8 @@
   },
   {
     "id": 14,
-    "category": "Juventus",
-    "name": "Practice Sat",
+    "category": "Sports Team",
+    "name": "Practice Saturday",
     "completed": true,
     "dueDate": "2025-10-04",
     "timeToComplete": 120,
@@ -194,8 +194,8 @@
   },
   {
     "id": 15,
-    "category": "Juventus",
-    "name": "Scrimmage Wed",
+    "category": "Sports Team",
+    "name": "Scrimmage Wednesday",
     "completed": true,
     "dueDate": "2025-10-08",
     "timeToComplete": 120,
@@ -206,8 +206,8 @@
   },
   {
     "id": 28,
-    "category": "Juventus",
-    "name": "Game Saturday Scottish 9:30",
+    "category": "Sports Team",
+    "name": "Game Saturday 9:30am",
     "completed": false,
     "dueDate": "2025-10-11",
     "timeToComplete": 180,
@@ -229,7 +229,7 @@
   {
     "id": 17,
     "category": "Consulting",
-    "name": "2:00 pm meeting FLIR",
+    "name": "Client Meeting 2:00pm",
     "completed": true,
     "dueDate": null,
     "timeToComplete": 90,
@@ -241,7 +241,7 @@
   {
     "id": 25,
     "category": "Consulting",
-    "name": "Read docs and images and send comments",
+    "name": "Review docs and send feedback",
     "completed": false,
     "dueDate": "2025-10-10",
     "timeToComplete": 120,
@@ -250,7 +250,7 @@
   {
     "id": 18,
     "category": "House",
-    "name": "Rosy Room",
+    "name": "Child's Bedroom",
     "completed": false,
     "dueDate": "2025-10-31",
     "timeToComplete": 350,
@@ -299,7 +299,7 @@
   {
     "id": 22,
     "category": "Office",
-    "name": "Computer",
+    "name": "Computer Setup",
     "completed": false,
     "dueDate": "2025-10-17",
     "timeToComplete": 30,
@@ -324,7 +324,7 @@
   {
     "id": 24,
     "category": "Grant",
-    "name": "Oct 16 Draft",
+    "name": "Draft Proposal",
     "completed": false,
     "dueDate": "2025-10-16",
     "timeToComplete": 240,

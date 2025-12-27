@@ -4,38 +4,38 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Default tasks (fallback if no saved data)
     const defaultTasks = [
-        // 275
-        { id: 1, category: '275', name: 'Grading Quiz 2', completed: false, dueDate: null, timeToComplete: 60, tags: ['work', 'deep focus', 'computer'] },
-        { id: 2, category: '275', name: 'Prepare Lecture', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'creative', 'computer'] },
-        { id: 3, category: '275', name: 'Prepare Midterm', completed: false, dueDate: null, timeToComplete: 120, tags: ['work', 'deep focus', 'computer'] },
-        { id: 4, category: '275', name: 'Gradebook', completed: false, dueDate: null, timeToComplete: 30, tags: ['work', 'computer'] },
-        // 403
-        { id: 5, category: '403', name: 'Grade Assy. 1', completed: false, dueDate: null, timeToComplete: 120, tags: ['work', 'deep focus', 'computer'] },
-        { id: 6, category: '403', name: 'Fix Projs Save', completed: false, dueDate: null, timeToComplete: 45, tags: ['work', 'computer'] },
-        { id: 7, category: '403', name: 'Lecture', completed: false, dueDate: null, timeToComplete: 60, tags: ['work', 'creative', 'computer'] },
-        { id: 8, category: '403', name: 'Assignment 2', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'deep focus', 'computer'] },
-        // Stroke
-        { id: 9, category: 'Stroke', name: 'Meet Charan', completed: false, dueDate: null, timeToComplete: 60, tags: ['social', 'planning'] },
-        { id: 10, category: 'Stroke', name: 'Develop App', completed: false, dueDate: null, timeToComplete: 180, tags: ['work', 'deep focus', 'computer', 'creative'] },
-        { id: 11, category: 'Stroke', name: 'EEG Edu list', completed: false, dueDate: null, timeToComplete: 45, tags: ['work', 'research', 'computer'] },
-        // Juventus
-        { id: 12, category: 'Juventus', name: 'Coach Forms', completed: false, dueDate: null, timeToComplete: 30, tags: ['admin'] },
-        { id: 13, category: 'Juventus', name: 'Collect Fees', completed: false, dueDate: null, timeToComplete: 20, tags: ['admin'] },
-        { id: 14, category: 'Juventus', name: 'Practice Sat', completed: false, dueDate: null, timeToComplete: 120, tags: ['sport', 'social'] },
-        { id: 15, category: 'Juventus', name: 'Scrimmage Wed', completed: false, dueDate: null, timeToComplete: 120, tags: ['sport', 'social'] },
+        // Psychology 101
+        { id: 1, category: 'Psychology 101', name: 'Grading Quiz 2', completed: false, dueDate: null, timeToComplete: 60, tags: ['work', 'deep focus', 'computer'] },
+        { id: 2, category: 'Psychology 101', name: 'Prepare Lecture', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'creative', 'computer'] },
+        { id: 3, category: 'Psychology 101', name: 'Prepare Midterm', completed: false, dueDate: null, timeToComplete: 120, tags: ['work', 'deep focus', 'computer'] },
+        { id: 4, category: 'Psychology 101', name: 'Gradebook', completed: false, dueDate: null, timeToComplete: 30, tags: ['work', 'computer'] },
+        // Neuroscience 201
+        { id: 5, category: 'Neuroscience 201', name: 'Grade Assignment 1', completed: false, dueDate: null, timeToComplete: 120, tags: ['work', 'deep focus', 'computer'] },
+        { id: 6, category: 'Neuroscience 201', name: 'Fix Project Files', completed: false, dueDate: null, timeToComplete: 45, tags: ['work', 'computer'] },
+        { id: 7, category: 'Neuroscience 201', name: 'Lecture', completed: false, dueDate: null, timeToComplete: 60, tags: ['work', 'creative', 'computer'] },
+        { id: 8, category: 'Neuroscience 201', name: 'Assignment 2', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'deep focus', 'computer'] },
+        // Research Project
+        { id: 9, category: 'Research Project', name: 'Meet Collaborator', completed: false, dueDate: null, timeToComplete: 60, tags: ['social', 'planning'] },
+        { id: 10, category: 'Research Project', name: 'Develop App', completed: false, dueDate: null, timeToComplete: 180, tags: ['work', 'deep focus', 'computer', 'creative'] },
+        { id: 11, category: 'Research Project', name: 'Equipment List', completed: false, dueDate: null, timeToComplete: 45, tags: ['work', 'research', 'computer'] },
+        // Sports Team
+        { id: 12, category: 'Sports Team', name: 'Coach Forms', completed: false, dueDate: null, timeToComplete: 30, tags: ['admin'] },
+        { id: 13, category: 'Sports Team', name: 'Collect Fees', completed: false, dueDate: null, timeToComplete: 20, tags: ['admin'] },
+        { id: 14, category: 'Sports Team', name: 'Practice Saturday', completed: false, dueDate: null, timeToComplete: 120, tags: ['sport', 'social'] },
+        { id: 15, category: 'Sports Team', name: 'Scrimmage Wednesday', completed: false, dueDate: null, timeToComplete: 120, tags: ['sport', 'social'] },
         // Consulting
         { id: 16, category: 'Consulting', name: '1 hr Prep', completed: true, dueDate: null, timeToComplete: 60, tags: ['work', 'planning', 'computer'] },
-        { id: 17, category: 'Consulting', name: '2:00 pm meeting FLIR', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'social'] },
+        { id: 17, category: 'Consulting', name: 'Client Meeting 2:00pm', completed: false, dueDate: null, timeToComplete: 90, tags: ['work', 'social'] },
         // House
-        { id: 18, category: 'House', name: 'Rosy Room', completed: false, dueDate: null, timeToComplete: 45, tags: ['chore', 'home'] },
+        { id: 18, category: 'House', name: 'Child\'s Bedroom', completed: false, dueDate: null, timeToComplete: 45, tags: ['chore', 'home'] },
         { id: 19, category: 'House', name: 'Clean Garage', completed: false, dueDate: null, timeToComplete: 120, tags: ['chore', 'home', 'physical'] },
         { id: 20, category: 'House', name: 'Living Room Lights', completed: false, dueDate: null, timeToComplete: 30, tags: ['chore', 'home'] },
         // Office
         { id: 21, category: 'Office', name: 'Clean', completed: false, dueDate: null, timeToComplete: 30, tags: ['chore', 'office'] },
-        { id: 22, category: 'Office', name: 'Computer', completed: false, dueDate: null, timeToComplete: 20, tags: ['chore', 'office', 'computer'] },
+        { id: 22, category: 'Office', name: 'Computer Setup', completed: false, dueDate: null, timeToComplete: 20, tags: ['chore', 'office', 'computer'] },
         { id: 23, category: 'Office', name: 'Air Flow', completed: false, dueDate: null, timeToComplete: 15, tags: ['chore', 'office'] },
         // Grant
-        { id: 24, category: 'Grant', name: 'Oct 16 Draft', completed: false, dueDate: '2025-10-16', timeToComplete: 240, tags: ['work', 'deep focus', 'writing', 'computer'] },
+        { id: 24, category: 'Grant', name: 'Draft Proposal', completed: false, dueDate: '2025-10-16', timeToComplete: 240, tags: ['work', 'deep focus', 'writing', 'computer'] },
     ];
 
     // Load tasks from localStorage or use defaults
@@ -824,10 +824,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Get category color
             const categoryColors = {
-                '275': 'var(--color-purple)',
-                '403': 'var(--color-blue)', 
-                'Stroke': 'var(--color-cyan)',
-                'Juventus': 'var(--color-green)',
+                'Psychology 101': 'var(--color-purple)',
+                'Neuroscience 201': 'var(--color-blue)', 
+                'Research Project': 'var(--color-cyan)',
+                'Sports Team': 'var(--color-green)',
                 'Consulting': 'var(--color-orange)',
                 'House': 'var(--color-pink)',
                 'Office': 'var(--color-indigo)',

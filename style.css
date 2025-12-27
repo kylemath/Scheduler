@@ -1222,22 +1222,22 @@ button:active {
 }
 
 /* Category-specific colors */
-.task-category[data-category="275"] {
+.task-category[data-category="Psychology 101"] {
     --category-color: var(--color-purple);
     --category-color-dark: #7c3aed;
 }
 
-.task-category[data-category="403"] {
+.task-category[data-category="Neuroscience 201"] {
     --category-color: var(--color-blue);
     --category-color-dark: #2563eb;
 }
 
-.task-category[data-category="Stroke"] {
+.task-category[data-category="Research Project"] {
     --category-color: var(--color-cyan);
     --category-color-dark: #0891b2;
 }
 
-.task-category[data-category="Juventus"] {
+.task-category[data-category="Sports Team"] {
     --category-color: var(--color-green);
     --category-color-dark: #059669;
 }
