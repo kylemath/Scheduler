@@ -1,5 +1,7 @@
 # Scheduler
 
+![Scheduler](https://raw.githubusercontent.com/kylemath/Scheduler/main/screenshot.png)
+
 A visual todolist and schedular with waves for days and weeks
 
 ## Getting Started
